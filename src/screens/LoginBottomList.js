@@ -29,14 +29,20 @@ export default class LoginBottomList extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
-                <List containerStyle={{marginBottom: 20}}>
+                <List containerStyle={{
+                	margin: 5,
+					backgroundColor: '#c3c3c3'}}>
                     {
                         list.map((l, i) => (
                             <ListItem
                                 roundAvatar
+                                hideChevron
                                 avatar={{uri:l.avatar_url}}
                                 key={i}
                                 title={l.name}
+                                subtitle={
+									<Text>Voici pourquoi</Text>
+								}
                             />
                         ))
                     }
