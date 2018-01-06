@@ -11,11 +11,11 @@ import {
 import PropTypes from 'prop-types';
 import { Actions, ActionConst } from 'react-native-router-flux';
 
-import arrowImg from '../images/left-arrow.png';
+import arrowImg from '../../images/left-arrow.png';
 
 const SIZE = 40;
 
-export default class SecondScreen extends Component {
+export default class HomeScreen extends Component {
 	constructor() {
 		super();
 
@@ -58,12 +58,7 @@ export default class SecondScreen extends Component {
 
 		return (
 			<View style={styles.container}>
-                <View style={styles.header}>
-                    <TouchableOpacity onPress={this.onMenuPress.bind(this)}>
-                        <Image style={styles.menuIcon} source={require('../images/icon-menu.png')} />
-                    </TouchableOpacity>
-                    <Text style={styles.headerTitle}>React Native Interactions</Text>
-                </View>
+
 
 				<TouchableOpacity onPress={this._onPress}
 					style={styles.button}
@@ -91,7 +86,7 @@ const styles = StyleSheet.create({
 		borderRadius: 100,
         margin: 20,
 		zIndex: 99,
-		backgroundColor: '#F035E0',
+		backgroundColor: '#3c38f0',
 	},
     header: {
         height: SIZE,
@@ -116,7 +111,7 @@ const styles = StyleSheet.create({
 		width: SIZE,
 		marginTop: -SIZE,
 		borderRadius: 100,
-		backgroundColor: '#F035E0',
+		backgroundColor: '#3c38f0',
 	},
 	image: {
 		width: 24,

@@ -11,16 +11,16 @@ import {
     ActivityIndicator, StyleSheet
 } from 'react-native';
 import {Router, Scene} from 'react-native-router-flux';
-import Logo from './Logo';
-import Form from './Form';
-import Wallpaper from './Wallpaper';
-import ButtonSubmit from './ButtonSubmit';
-import SignupSection from './SignupSection';
+import Logo from './screenComponents/Logo';
+import Form from './screenComponents/Form';
+import Wallpaper from './screenComponents/Wallpaper';
+import ButtonSubmit from './screenComponents/ButtonSubmit';
+import SignupSection from './screenComponents/SignupSection';
 import PropTypes from 'prop-types';
-import SecondScreen from "./SecondScreen";
-import LoginScreen from "./LoginScreen";
-import OnboardingScreen from "./OnboardingScreen";
-import HomeScreen from "./HomeScreen";
+import SecondScreen from "./screens/MyBoardScreen";
+import LoginScreen from "./screens/LoginScreen";
+import OnboardingScreen from "./screens/OnboardingScreen";
+import HomeScreen from "./screens/HomeScreen";
 let imagess1 = 'https://i.pinimg.com/736x/c3/2f/d6/c32fd67e98ef729ede6f8ef01845a990--long-angled-bob-hairstyles-hairstyles-medium-lengths.jpg';
 
 

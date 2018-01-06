@@ -13,7 +13,7 @@ import {
     Alert,
     TouchableOpacity, Image, Animated, Easing
 } from 'react-native';
-import Wallpaper from './OnboardingWallpaper';
+import Wallpaper from '../screenComponents/OnboardingWallpaper';
 import { Actions, ActionConst } from 'react-native-router-flux';
 import Onboarding from 'react-native-simple-onboarding';
 
@@ -22,10 +22,10 @@ let imagess2 = 'https://i1.wp.com/therighthairstyles.com/wp-content/uploads/2015
 let imagess3 = 'https://i.styleoholic.com/2016/10/04-asymmetrical-long-bob-with-highlights-for-texture.jpg';
 let imagess4 = 'https://i.pinimg.com/736x/c3/2f/d6/c32fd67e98ef729ede6f8ef01845a990--long-angled-bob-hairstyles-hairstyles-medium-lengths.jpg';
 // GOOD
-const icon1 = require('../images/logo.png');
-const icon2 = require('../images/wallpaper.png');
-const icon3 = require('../images/page3.png');
-const icon4 = require('../images/page1.png');
+const icon1 = require('../../images/logo.png');
+const icon2 = require('../../images/wallpaper.png');
+const icon3 = require('../../images/page3.png');
+const icon4 = require('../../images/page1.png');
 
 
 const instructions = Platform.select({

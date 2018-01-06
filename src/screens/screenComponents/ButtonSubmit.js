@@ -13,7 +13,7 @@ import {
 import PropTypes from 'prop-types';
 import { Actions, ActionConst } from 'react-native-router-flux';
 
-import spinner from '../images/loading.gif';
+import spinner from '../../images/loading.gif';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 const DEVICE_HEIGHT = Dimensions.get('window').height;
@@ -50,7 +50,7 @@ export default class ButtonSubmit extends Component {
 		}, 2000);
 
 		setTimeout(() => {
-			Actions.secondScreen();
+			Actions.homeScreen();
 			this.setState({ isLoading: false });
 			this.buttonAnimated.setValue(0);
 			this.growAnimated.setValue(0);

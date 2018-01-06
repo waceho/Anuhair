@@ -11,11 +11,11 @@ import {
 import PropTypes from 'prop-types';
 import { Actions, ActionConst } from 'react-native-router-flux';
 
-import arrowImg from '../images/left-arrow.png';
+import arrowImg from '../../images/left-arrow.png';
 
 const SIZE = 40;
 
-export default class HomeScreen extends Component {
+export default class SecondScreen extends Component {
 	constructor() {
 		super();
 
@@ -59,7 +59,6 @@ export default class HomeScreen extends Component {
 		return (
 			<View style={styles.container}>
 
-
 				<TouchableOpacity onPress={this._onPress}
 					style={styles.button}
 					activeOpacity={1}>
@@ -84,9 +83,8 @@ const styles = StyleSheet.create({
 		width: SIZE,
 		height: SIZE,
 		borderRadius: 100,
-        margin: 20,
 		zIndex: 99,
-		backgroundColor: '#3c38f0',
+		backgroundColor: '#F035E0',
 	},
     header: {
         height: SIZE,
@@ -111,7 +109,7 @@ const styles = StyleSheet.create({
 		width: SIZE,
 		marginTop: -SIZE,
 		borderRadius: 100,
-		backgroundColor: '#3c38f0',
+		backgroundColor: '#F035E0',
 	},
 	image: {
 		width: 24,

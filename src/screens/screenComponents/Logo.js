@@ -7,7 +7,7 @@ import {
 	ScrollView,
 } from 'react-native';
 import PropTypes from 'prop-types';
-import logoImg from '../images/logo.png';
+import logoImg from '../../images/logo.png';
 
 export default class Logo extends Component {
 	render() {

@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 import { Actions, ActionConst } from 'react-native-router-flux';
 import { Button, Header, SocialIcon, Icon } from 'react-native-elements';
 
-import spinner from '../images/loading.gif';
+import spinner from '../../images/loading.gif';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 const DEVICE_HEIGHT = Dimensions.get('window').height;
