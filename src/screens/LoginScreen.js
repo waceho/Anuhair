@@ -5,6 +5,7 @@ import Wallpaper from './Wallpaper';
 import ButtonSubmit from './ButtonSubmit';
 import SignupSection from './SignupSection';
 import FacebookLogin from './FacebookLoginButton';
+import LoginBottomList from './LoginBottomList';
 import PropTypes from 'prop-types';
 export default class LoginScreen extends Component {
 	render() {
@@ -14,7 +15,9 @@ export default class LoginScreen extends Component {
                 <FacebookLogin/>
 				<Form />
 				<SignupSection/>
+                <LoginBottomList/>
 				<ButtonSubmit/>
+
 			</Wallpaper>
 		);
 	}

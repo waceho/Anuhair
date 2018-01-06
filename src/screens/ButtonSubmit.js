@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		backgroundColor: '#25b53c',
 		height: MARGIN,
+
         borderRadius: 100,
 		zIndex: 100,
 	},
@@ -117,11 +118,11 @@ const styles = StyleSheet.create({
 		width: MARGIN,
 		marginTop: -MARGIN,
 		borderWidth: 1,
-		borderColor: '#fffefa',
+		borderColor: '#F035E0',
 		borderRadius: 100,
 		alignSelf: 'center',
 		zIndex: 99,
-		backgroundColor: '#3c38f0',
+		backgroundColor: '#F035E0',
 	},
 	text: {
 		color: 'white',
