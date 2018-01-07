@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	image: {
-		width: '20%',
-		height: '35%',
+		width: '21.5%',
+		height: '40%',
 	},
 	text: {
 		color: 'white',

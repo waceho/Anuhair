@@ -87,6 +87,7 @@ export default class FacebookLoginButton extends Component {
                 title='Se connecter avec facebook'
                 button
                 type='facebook'
+
             />
                 <View style={styles.container}>
                     <Text style={styles.text}>ou</Text>
@@ -100,7 +101,6 @@ export default class FacebookLoginButton extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-
         paddingLeft: 40,
         paddingRight: 40,
         alignItems: 'center',

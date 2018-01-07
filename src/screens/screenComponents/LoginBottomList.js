@@ -31,7 +31,7 @@ export default class LoginBottomList extends Component {
 			<View style={styles.container}>
                 <List containerStyle={{
                 	margin: 5,
-					backgroundColor: '#c3c3c3'}}>
+					backgroundColor: 'transparent'}}>
                     {
                         list.map((l, i) => (
                             <ListItem

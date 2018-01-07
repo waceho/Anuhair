@@ -15,9 +15,7 @@ export default class LoginScreen extends Component {
                 <FacebookLogin/>
 				<Form />
 				<SignupSection/>
-                <LoginBottomList/>
 				<ButtonSubmit/>
-
 			</Wallpaper>
 		);
 	}

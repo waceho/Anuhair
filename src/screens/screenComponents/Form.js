@@ -46,6 +46,7 @@ export default class Form extends Component {
 					placeholder='Password'
 					returnKeyType={'done'}
 					autoCapitalize={'none'}
+						   onSubmitEditing={this.handleEditComplete}
 					autoCorrect={false} />
 					<TouchableOpacity
 						activeOpacity={0.7}

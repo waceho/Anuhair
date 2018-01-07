@@ -42,10 +42,10 @@ export default class OnboardingScreen extends Component<{}> {
             <Wallpaper>
                 <Onboarding
                     pages={[
-                        { backgroundColor: 'transparent', image: <Image style={styles.image} source={icon1} />, title: 'TUTO 1', subtitle: instructions },
-                        { backgroundColor: "transparent", image: <Image style={styles.image} source={icon1} />, title: 'TUTO 2', subtitle: instructions },
-                        { backgroundColor: "transparent", image: <Image style={styles.image} source={icon1} />, title: 'TUTO 3', subtitle: instructions },
-                        { backgroundColor: "transparent",image: <Image style={styles.image} source={icon1} />, title: 'TUTO 4', subtitle: instructions },
+                        { backgroundColor: 'transparent', image: <Image style={styles.image}  />,title: 'TUTO 1', subtitle: instructions },
+                        { backgroundColor: "transparent", image: <Image style={styles.image}  />, title: 'TUTO 2', subtitle: instructions },
+                        { backgroundColor: "transparent", image: <Image style={styles.image}  />, title: 'TUTO 3', subtitle: instructions },
+                        { backgroundColor: "transparent",image: <Image style={styles.image}  />, title: 'TUTO 4', subtitle: instructions },
                     ]}
                     showDone={true}
                     onEnd={Actions.loginScreen}
